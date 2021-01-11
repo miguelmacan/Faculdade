@@ -1,0 +1,29 @@
+#include <stdlib.h>
+#include <stdin.h>
+#include <conio.h>
+#include <string.h>
+
+File* MeuArq;
+int main () {
+ errno_t err;
+ char NomeArq[10], Frase1[49], Frase2[49];
+printf("Digite o nome do arquico:*);
+gets_s(NomeArq);
+strcat_s(NomeArq, 10 - strlen(NomeArq0 + 1, ".txt");
+printf("\n\nO arquivo será criado eh %s, NomeArq);
+err = fopen_s(&MeuArq, NomeArq, "w+");
+if (err==0)
+{
+printf("\nArquivo aberto com sucesso\n");
+}
+else
+{
+print("\nErro na abertura do arquivo\n");
+exit(1)
+}
+
+printf("\n\nDigite seu primeira frase:");
+fgets(Frase1,49,stdin);
+-fcloseall();
+
+return 0;
